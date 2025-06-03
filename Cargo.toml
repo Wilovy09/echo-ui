@@ -1,0 +1,8 @@
+[package]
+name = "echoui"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+freya = { git = "https://github.com/marc2332/freya" }
+dioxus = {version = "0.6.3", features = ["macro", "hooks"], default-features = false }
